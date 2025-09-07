@@ -1,0 +1,47 @@
+# Updated requirements.txt with OCR dependencies
+# agentic_food_backend/requirements.txt
+
+# FastAPI and core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+databases[asyncpg]==0.8.0
+sqlalchemy==1.4.50
+pydantic==1.10.13
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# Vector embeddings and similarity search
+faiss-cpu==1.7.4
+chromadb==0.4.15
+sentence-transformers==2.6.1
+
+# Data processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Authentication and security
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# OCR and Image Processing Dependencies
+pytesseract==0.3.10
+opencv-python==4.8.1.78
+Pillow==10.0.1
+
+# Web Scraping Dependencies
+selenium==4.15.2
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Utilities and Logging
+loguru==0.7.2
+tenacity==8.2.3
+
+# Additional utilities
+python-dateutil==2.8.2
+aiofiles==23.2.1
+huggingface_hub==0.34.4
+transformers=4.35.2
+PyJWT==2.8.0
